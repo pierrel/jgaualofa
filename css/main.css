@@ -1,0 +1,49 @@
+/* LAYOUT */
+body {
+    background: url(/images/boat_front.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgb(115, 99, 63);
+    background-color: rgba(115, 99, 63, .9);
+    width: 100%;
+}
+
+nav > .row > div {
+    height: 90px;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav-pills a {
+    color: black;
+}
+
+.nav-pills li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.pattern {
+    background-image: url(/images/pattern.png);
+    background-size: contain;
+    height: 40px;
+}
+
+
+/* PAGE */
+.row-of-info {
+    padding-top: 100px;
+}
+.info {
+    background: rgb(248, 248, 255); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(248, 248, 255, .5);
+}
