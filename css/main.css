@@ -1,3 +1,9 @@
+@font-face {
+    font-family:churchward;
+    src:url(/fonts/churchward.otf);
+}
+
+
 /* LAYOUT */
 body {
     background: url(/images/boat_front.jpg) no-repeat center center fixed;
@@ -5,6 +11,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.header h1 {
+    font-family: churchward;
+    font-size: 60px;
+    margin-top: 10px;
 }
 
 nav {
