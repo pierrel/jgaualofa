@@ -63,3 +63,12 @@ a.thumbnail {
 .thumb-row .thumbnail {
     margin-top: 10px;
 }
+
+.modal-dialog {
+    width: 90%;
+}
+
+.modal-body img {
+    width: 100%;
+    height: auto;
+}
