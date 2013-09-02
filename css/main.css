@@ -89,3 +89,7 @@ a.thumbnail {
     width: 100%;
     height: auto;
 }
+
+.modal-header {
+    border-bottom: none;
+}
