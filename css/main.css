@@ -33,6 +33,10 @@ body {
     margin-top: 10px;
 }
 
+.logo {
+    width: 310px;
+}
+
 .head-row {
     background-color: rgb(115, 99, 63);
     background-color: rgba(115, 99, 63, .9);
