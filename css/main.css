@@ -1,6 +1,8 @@
 @font-face {
     font-family:churchward;
-    src:url(/fonts/churchward.otf);
+    src: url('/fonts/churchward.eot?#iefix') format('embedded-opentype'), 
+         url('/fonts/churchward.otf'),
+         url('/fonts/churchward.ttf')  format('truetype');
 }
 
 /* special iphone stuff */
