@@ -1,2 +1,2 @@
 #!/bin/bash
-jekyll server --watch
+bundle exec jekyll server --watch
