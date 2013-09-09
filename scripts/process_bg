@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "converting $1 to web-ready at $2px width"
+gm convert $1 -resize "$2x" -unsharp 2x0.5+0.7+0 -quality 98 $1
