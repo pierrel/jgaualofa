@@ -23,12 +23,13 @@
         <div class="col-md-8 nav-container col-sm-10 col-xs-12">
           <nav>        
             <ul class="nav nav-pills">
-              <li class="active"><a href="index.html">Home</a></li>             
-              <li><a href="about.html">About</a></li> 
-              <li><a href="voyage_with_us.html">Voyage With Us</a></li>
-              <li><a href="photo_gallery.html">Photo Gallery</a></li>
-              <li><a href="merchandise.html">Merchandise</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li {% if page.name == "home.html" %}class="active"{% endif %}><a href="index.html">Home</a></li>             
+              <li {% if page.name == "about.html" %}class="active"{% endif %}><a href="about.html">About</a></li> 
+              <li {% if page.name == "voyage_with_us.html" %}class="active"{% endif %}><a href="voyage_with_us.html">Voyage With Us</a></li>
+              <li {% if page.name == "photo_gallery.html" %}class="active"{% endif %}><a href="photo_gallery.html">Photo Gallery</a></li>
+              <li {% if page.name == "merchandise.html" %}class="active"{% endif %}><a href="merchandise.html">Merchandise</a></li>
+              <li {% if page.name == "contact.html" %}class="active"{% endif %}><a href="contact.html">Contact</a></li>
+           
             </ul>
           </nav>
         </div>
