@@ -24,11 +24,11 @@
           <nav>        
             <ul class="nav nav-pills">
               <li {% if (page.name | downcase | replace:'.html','' | strip) == "home" %}class="active"{% endif %}><a href="index.html">Home</a></li>             
-              <li {% if (page.name | downcase | replace:'.html','' | strip) == "about" %}class="active"{% endif %}><a href="about.html">About</a></li> 
-              <li {% if (page.name | downcase | replace:'.html','' | strip) == "voyage_with_us" %}class="active"{% endif %}><a href="voyage_with_us.html">Voyage With Us</a></li>
-              <li {% if (page.name | downcase | replace:'.html','' | strip) == "photo_gallery" %}class="active"{% endif %}><a href="photo_gallery.html">Photo Gallery</a></li>
-              <li {% if (page.name | downcase | replace:'.html','' | strip) == "merchandise" %}class="active"{% endif %}><a href="merchandise.html">Merchandise</a></li>
-              <li {% if (page.name | downcase | replace:'.html','' | strip) == "contact" %}class="active"{% endif %}><a href="contact.html">Contact</a></li>
+              <li {% if (page.name ) == "about" %}class="active"{% endif %}><a href="about.html">About</a></li> 
+              <li {% if (page.name ) == "voyage_with_us" %}class="active"{% endif %}><a href="voyage_with_us.html">Voyage With Us</a></li>
+              <li {% if (page.name ) == "photo_gallery" %}class="active"{% endif %}><a href="photo_gallery.html">Photo Gallery</a></li>
+              <li {% if (page.name ) == "merchandise" %}class="active"{% endif %}><a href="merchandise.html">Merchandise</a></li>
+              <li {% if (page.name ) == "contact" %}class="active"{% endif %}><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
         </div>
