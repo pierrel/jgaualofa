@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="/css/main.css">
 
   </head>
-  <body style="background-image: url(images/{{page.name}}_bg.jpg)">
+  <body style="background-image: url(images/{{page.name | downcase | replace:'.html',''}}_bg.jpg); padding-bottom: 20px">
 
     <div class="row head-row">
         <div class="col-md-4 header col-sm-6">
@@ -23,12 +23,13 @@
         <div class="col-md-8 nav-container col-sm-10 col-xs-12">
           <nav>        
             <ul class="nav nav-pills">
-              <li {% if page.name == "home" %}class="active"{% endif %}><a href="index.html">Home</a></li>             
-              <li {% if page.name == "about" %}class="active"{% endif %}><a href="about.html">About</a></li> 
-              <li {% if page.name == "voyage_with_us" %}class="active"{% endif %}><a href="voyage_with_us.html">Voyage With Us</a></li>
-              <li {% if page.name == "photo_gallery" %}class="active"{% endif %}><a href="photo_gallery.html">Photo Gallery</a></li>
-              <li {% if page.name == "merchandise" %}class="active"{% endif %}><a href="merchandise.html">Merchandise</a></li>
-              <li {% if page.name == "contact" %}class="active"{% endif %}><a href="contact.html">Contact</a></li>
+              <li {% if page.name == "home.html" %}class="active"{% endif %}><a href="index.html">Home</a></li>             
+              <li {% if page.name == "about.html" %}class="active"{% endif %}><a href="about.html">About</a></li> 
+              <li {% if page.name == "voyage_with_us.html" %}class="active"{% endif %}><a href="voyage_with_us.html">Voyage With Us</a></li>
+              <li {% if page.name == "photo_gallery.html" %}class="active"{% endif %}><a href="photo_gallery.html">Photo Gallery</a></li>
+              <li {% if page.name == "merchandise.html" %}class="active"{% endif %}><a href="merchandise.html">Merchandise</a></li>
+              <li {% if page.name == "contact.html" %}class="active"{% endif %}><a href="contact.html">Contact</a></li>
+           
             </ul>
           </nav>
         </div>
